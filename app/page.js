@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, Users, Plus, Check, X, Trophy, Clock, DollarSign, LogOut } from 'lucide-react';
-import { db } from '../lib/firebase';
+import { db } from '@/lib/firebase';
 import { 
   collection, 
   addDoc, 
